@@ -1,0 +1,25 @@
+@use "styles" as *;
+
+.overviewWrapper {
+  box-shadow: 0 10px 60px 0 rgba(226, 236, 249, 0.5);
+  padding: 20px 38px 40px 38px;
+  border-radius: 30px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.overviewTitle {
+  font-size: 22px;
+  font-weight: $fw-semibold;
+}
+
+.overviewTitleDescCnt {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.overviewDesc {
+  font-size: 14px;
+  color: $color-grey;
+}

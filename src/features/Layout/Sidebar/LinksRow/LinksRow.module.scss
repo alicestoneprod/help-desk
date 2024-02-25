@@ -1,0 +1,31 @@
+@use "styles" as *;
+
+.link {
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+  padding: 11px;
+  align-items: center;
+  border-radius: 8px;
+  transition:
+    background-color 0.5s ease,
+    color 0.5s ease;
+}
+
+.isActive {
+  background-color: $color-purple;
+  & * {
+    color: $color-white;
+  }
+  transition:
+    background-color 0.5s ease,
+    color 0.5s ease;
+}
+
+.isMin {
+  gap: 0;
+  justify-content: center;
+  padding: 16px;
+  margin-bottom: 29px;
+  font-size: 30px;
+}

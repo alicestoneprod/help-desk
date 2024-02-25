@@ -1,0 +1,28 @@
+@use "styles" as *;
+
+.dashboardPageCnt {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: $color-white-page;
+  padding: 41px 95px 40px 71px;
+}
+
+.titleCnt {
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: $fw-semibold;
+}
+
+.overviewCnt {
+  width: 628px;
+}
+
+.customersOverview {
+  width: 304px;
+}
+
+.overviewsCnt {
+  display: flex;
+  gap: 36px;
+}

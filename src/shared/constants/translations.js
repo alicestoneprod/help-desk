@@ -1,0 +1,18 @@
+export const translations = [
+  { key: "ID", translation: "ID" },
+  { key: "fullName", translation: "ФИО" },
+  { key: "birthday", translation: "Дата рождения" },
+  { key: "gender", translation: "Пол" },
+  { key: "city", translation: "Город" },
+  { key: "email", translation: "Почта" },
+  { key: "phone", translation: "Телефон" },
+  { key: "partner", translation: "Партнер" },
+  { key: "reason", translation: "Причина" },
+  { key: "role", translation: "Родство" },
+  { key: "level", translation: "Уровень образования" },
+  { key: "faculty", translation: "Факультет" },
+  { key: "institution", translation: "Учебное заведение" },
+  { key: "specialization", translation: "Специализация" },
+  { key: "graduationYear", translation: "Год окончания" },
+  { key: "new", translation: "Новый" },
+]
