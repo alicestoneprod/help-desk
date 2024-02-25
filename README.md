@@ -1,4 +1,5 @@
 # Тестовое задание
+#### **Для старта: yarn -> yarn dev | npm install -> npm run dev**
 ### Библиотеки: 
 1. React, React Router Dom
 2. Antd (готовые компоненты), Echarts (графики), frame-motion (анимации)
