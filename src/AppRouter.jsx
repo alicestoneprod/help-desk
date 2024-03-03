@@ -16,12 +16,11 @@ export const AppRouter = () => {
       {routes.map((route) => (
         <Route
           path={route.path}
-          index={route?.isIndex ? true : false}
-          element={<route.page />}
+          Component={route.page}
           key={route.page}
         />
       ))}
-      <Route path='*' element={<div>not foun!!d</div>} />
+      <Route path='*' element={<div>not found</div>} />
     </Routes>
   )
 }

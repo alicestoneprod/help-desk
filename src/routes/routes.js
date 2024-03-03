@@ -7,7 +7,6 @@ export const routes = [
     name: "Dashboard",
     icon: AreaChartOutlined,
     page: DashboardPage,
-    isIndex: true,
   },
   {
     path: "/customers",
